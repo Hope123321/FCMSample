@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730856040254",
+    "project_id": "fcm-sample-a9eea",
+    "storage_bucket": "fcm-sample-a9eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730856040254:android:2828d7c95b7d2803b6ee6f",
+        "android_client_info": {
+          "package_name": "com.retex.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730856040254-h15bmigp8ss910hqt870gps19sg5j5oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsKtONxRQ9UbwLCYO4DiZy40_aDkGhNvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730856040254-h15bmigp8ss910hqt870gps19sg5j5oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
