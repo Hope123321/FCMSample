@@ -57,7 +57,7 @@ namespace FCMSample.Droid.Services
 
             notificationId++;
 
-            var pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, notificationId, intent, PendingIntentFlags.OneShot);
+            var pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, notificationId, intent,PendingIntentFlags.Immutable);
             var notificationBuilder = new NotificationCompat.Builder(AndroidApp.Context, CHANNEL_ID)
                                             .SetLargeIcon(BitmapFactory.DecodeResource(AndroidApp.Context.Resources, Resource.Mipmap.icon))
                                             .SetSmallIcon(Resource.Mipmap.icon)

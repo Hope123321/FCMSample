@@ -14,7 +14,7 @@ using System.Text;
 
 namespace FCMSample.Droid.Services
 {
-    [Service]
+    [Service(Exported = false)]
     [IntentFilter(new[] { "com.google.firebase.MESSAGING_EVENT" })]
     public class CustomFirebaseMessagingService : FirebaseMessagingService
     {
