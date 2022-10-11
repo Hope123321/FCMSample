@@ -56,6 +56,7 @@ namespace FCMSample.Send
 
             if (string.IsNullOrEmpty(token))
             {
+                //針對APP訂閱的主題做群發
                 message.Topic = "all";
             }
             else

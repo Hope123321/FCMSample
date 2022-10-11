@@ -28,6 +28,8 @@ namespace FCMSample.Droid.Services
         public override void OnNewToken(string token)
         {
             base.OnNewToken(token);
+            //訂閱主題(為了群發使用)
+            FirebaseMessaging.Instance.SubscribeToTopic("all");
             Log.Debug("FMC_SERVICE", token);
         }
 
