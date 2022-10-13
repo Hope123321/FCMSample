@@ -51,6 +51,14 @@ namespace FCMSample.Send
                 {
                     Title = notificationTitle,
                     Body = notificationBody
+                },
+                //IOS 專用屬性
+                Apns=new ApnsConfig(){
+                    Aps= new Aps
+                    { 
+                        //紅點數字通知，傳1代表固定顯示1。
+                        Badge=1
+                    }
                 }
             };
 
